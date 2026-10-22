@@ -93,3 +93,12 @@
 /home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb
 /home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/CRUDTests.genruntimeconfig.cache
 /home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_CRUDTests
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/CoverletSourceRootsMapping_CRUDTests
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Entities.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/ServiceContracts.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Services.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Entities.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/ServiceContracts.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Services.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/CRUDTests.sourcelink.json

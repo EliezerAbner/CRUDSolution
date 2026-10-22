@@ -13,47 +13,99 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a49d214-feb7-4de7-87d2-536813f2314d" name="Changes" comment="" />
+    <list default="true" id="6a49d214-feb7-4de7-87d2-536813f2314d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceContracts/DTO/CountryResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDSolution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDSolution.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/CRUDTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/CRUDTests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/refint/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/refint/CRUDTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/ICountriesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/ICountriesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ContinuousTesting.UiSettings">
+    <option name="tabHidden" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EliezerAbner&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EliezerAbner/CRUDSolution.git&quot;,
+    &quot;accountId&quot;: &quot;8ef6b398-03f5-4a50-965d-9148a5eaf386&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/MyMath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServiceContracts/DTO/CountryAddRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ServiceContracts/DTO/CountryResponse.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KyZFGecYZ9XJ6XzKhB3esJF8qZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/tuxlarper/Documents",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "rider.unittesting.toolwindow.stripe.button.shown": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tuxlarper/Documents&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;rider.unittesting.toolwindow.stripe.button.shown&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CRUDExample: http">
     <configuration name="CRUDExample: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/CRUDExample/CRUDExample.csproj" />

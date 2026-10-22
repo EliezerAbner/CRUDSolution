@@ -1,0 +1,16 @@
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/bin/Debug/net10.0/ServiceContracts.deps.json
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/bin/Debug/net10.0/ServiceContracts.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/bin/Debug/net10.0/ServiceContracts.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/bin/Debug/net10.0/Entities.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/bin/Debug/net10.0/Entities.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.AssemblyReference.cache
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfoInputs.cache
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfo.cs
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.CoreCompileInputs.cache
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.sourcelink.json
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceC.04662A29.Up2Date
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/refint/ServiceContracts.dll
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ServiceContracts.pdb
+/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/obj/Debug/net10.0/ref/ServiceContracts.dll
