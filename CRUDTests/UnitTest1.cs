@@ -8,7 +8,7 @@ public class UnitTest1
         //Arrange
         MyMath mm = new MyMath();
         int input1 = 10, input2 = 5;
-        int expected = input1 + input2 + 1;
+        int expected = input1 + input2;
         
         //Act
         int actual = mm.Add(input1, input2);

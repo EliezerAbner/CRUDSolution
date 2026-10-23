@@ -6,6 +6,7 @@ using Services;
 
 namespace CRUDTests;
 
+[SuppressMessage("ReSharper", "InconsistentNaming")]
 public class CountriesServiceTest
 {
     private readonly ICountriesService _countriesService;
@@ -63,8 +64,10 @@ public class CountriesServiceTest
         CountryAddRequest? request = new CountryAddRequest() {CountryName = "Japan"};
         //Act
         CountryResponse response = _countriesService.AddCountry(request);
+        List<CountryResponse> countries_from_GetAllCountries = _countriesService.GetAllCountries();
         //Assert
         Assert.True(response.CountryId != Guid.Empty);
+        Assert.Contains(response,countries_from_GetAllCountries);
     }
     #endregion
     
@@ -106,5 +109,39 @@ public class CountriesServiceTest
             Assert.Contains(expected_country, actualCountryResponseList);
         }
     }
+    #endregion
+    
+    #region GetCountryByCountryId
+
+    //If we supply null as CountryId, it should return null as CountryResponse
+    [Fact]
+    public void GetCountryByCountryId_NullCountryId()
+    {
+        //Arrange
+        Guid? countryId = null;
+        
+        //Act
+        CountryResponse? country_response_from_get_method = _countriesService.GetCountryByCountryId(countryId);
+        
+        //Assert
+        Assert.Null(country_response_from_get_method);
+    }
+    
+    //If we supply a valid country id, it should return the matching country
+    //details as CountryResponse object
+    [Fact]
+    public void GetCountryByCountryId_ValidCountryId()
+    {
+        //Arrange
+        CountryAddRequest? country_add_request = new CountryAddRequest() {CountryName = "China"};
+        CountryResponse country_response_from_add = _countriesService.AddCountry(country_add_request);
+        
+        //Act
+        CountryResponse? country_response_from_get = _countriesService.GetCountryByCountryId(country_response_from_add.CountryId);
+        
+        //Assert
+        Assert.Equal(country_response_from_add, country_response_from_get);
+    }
+    
     #endregion
 }
