@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/home/tuxlarper/.nuget/packages/": {}
+    "/home/eli/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tuxlarper/RiderProjects/CRUDSolution/Entities/Entities.csproj",
+      "projectUniqueName": "/home/eli/RiderProjects/CRUDSolution/Entities/Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/Entities/Entities.csproj",
-      "packagesPath": "/home/tuxlarper/.nuget/packages/",
-      "outputPath": "/home/tuxlarper/RiderProjects/CRUDSolution/Entities/obj/",
+      "projectPath": "/home/eli/RiderProjects/CRUDSolution/Entities/Entities.csproj",
+      "packagesPath": "/home/eli/.nuget/packages/",
+      "outputPath": "/home/eli/RiderProjects/CRUDSolution/Entities/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/tuxlarper/.nuget/NuGet/NuGet.Config"
+        "/home/eli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/tuxlarper/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/eli/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
