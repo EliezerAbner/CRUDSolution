@@ -10,3 +10,15 @@
 /home/tuxlarper/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/refint/Entities.dll
 /home/tuxlarper/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.pdb
 /home/tuxlarper/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/ref/Entities.dll
+/home/eli/RiderProjects/CRUDSolution/Entities/bin/Debug/net10.0/Entities.deps.json
+/home/eli/RiderProjects/CRUDSolution/Entities/bin/Debug/net10.0/Entities.dll
+/home/eli/RiderProjects/CRUDSolution/Entities/bin/Debug/net10.0/Entities.pdb
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.AssemblyInfoInputs.cache
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.AssemblyInfo.cs
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.csproj.CoreCompileInputs.cache
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.sourcelink.json
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.dll
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/refint/Entities.dll
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/Entities.pdb
+/home/eli/RiderProjects/CRUDSolution/Entities/obj/Debug/net10.0/ref/Entities.dll

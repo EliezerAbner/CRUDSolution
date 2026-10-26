@@ -1,4 +1,5 @@
 using Entities;
+using ServiceContracts.Enums;
 
 namespace ServiceContracts.DTO;
 
@@ -29,36 +30,55 @@ public class PersonResponse
         if (obj.GetType() != typeof(PersonResponse)) return false;
 
         PersonResponse person = (PersonResponse)obj;
-        return this.PersonId == person.PersonId && PersonName == person.PersonName && Email == person.Email && DateOfBirth == person.DateOfBirth && Gender == person.Gender && CountryId == person.CountryId && Address == person.Address && ReceiveNewsLetters == person.ReceiveNewsLetters;
+        return PersonId == person.PersonId && PersonName == person.PersonName && Email == person.Email && DateOfBirth == person.DateOfBirth && Gender == person.Gender && CountryId == person.CountryId && Address == person.Address && ReceiveNewsLetters == person.ReceiveNewsLetters;
     }
 
     public override int GetHashCode()
     {
         return base.GetHashCode();
     }
-
-    public static class PersonExtensions
+    
+    public override string ToString()
     {
-        /// <summary>
-        /// An extension method to convert an object of Person class into PersonResponse class
-        /// </summary>
-        /// <param name="person">The Person object to convert</param>
-        /// <returns>Returns the converted PersonResponse object</returns>
-        public static PersonResponse ToPersonResponse(Person person) //CORRIGIR
+        return $"Person Id: {PersonId}, Person Name: {PersonName}, Email: {Email}, Date Of Birth: {DateOfBirth?.ToString("yyyy MM dd")}, Gender: {Gender}, CountryId: {CountryId}, Address: {Address}, Receive News Letters: {ReceiveNewsLetters}";
+    }
+
+    public PersonUpdateRequest ToPersonUpdateRequest()
+    {
+        return new PersonUpdateRequest()
         {
-            //person => PersonResponse
-            return new PersonResponse()
-            {
-                PersonId = person.PersonId,
-                PersonName = person.PersonName,
-                Email = person.Email,
-                DateOfBirth = person.DateOfBirth,
-                Gender = person.Gender,
-                CountryId = person.CountryId,
-                Address = person.Address,
-                ReceiveNewsLetters = person.ReceiveNewsLetters,
-                Age = (person.DateOfBirth != null)? Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365.25) : null
-            };
-        }
+            PersonId = PersonId,
+            PersonName = PersonName,
+            Email = Email,
+            DateOfBirth = DateOfBirth,
+            Gender = (GenderOptions)Enum.Parse(typeof(GenderOptions), Gender, true),
+            Address = Address,
+            ReceiveNewsLetters = ReceiveNewsLetters,
+        };
+    }
+}
+
+public static class PersonExtensions
+{
+    /// <summary>
+    /// An extension method to convert an object of Person class into PersonResponse class
+    /// </summary>
+    /// <param name="person">The Person object to convert</param>
+    /// <returns>Returns the converted PersonResponse object</returns>
+    public static PersonResponse ToPersonResponse(this Person person)
+    {
+        //person => PersonResponse
+        return new PersonResponse()
+        {
+            PersonId = person.PersonId,
+            PersonName = person.PersonName,
+            Email = person.Email,
+            DateOfBirth = person.DateOfBirth,
+            Gender = person.Gender,
+            CountryId = person.CountryId,
+            Address = person.Address,
+            ReceiveNewsLetters = person.ReceiveNewsLetters,
+            Age = (person.DateOfBirth != null)? Math.Round((DateTime.Now - person.DateOfBirth.Value).TotalDays / 365.25) : null
+        };
     }
 }
