@@ -1,4 +1,5 @@
 using ServiceContracts.DTO;
+using ServiceContracts.Enums;
 
 
 namespace ServiceContracts;
@@ -35,4 +36,27 @@ public interface IPersonsService
     /// <param name="searchString">Search string to search</param>
     /// <returns>Returns all matching persons based on the given search field and search string</returns>
     List<PersonResponse> GetFilteredPersons(string searchBy, string? searchString);
+
+    /// <summary>
+    /// Returns sorted list of persons
+    /// </summary>
+    /// <param name="allPersons">Represents list of persons to sort</param>
+    /// <param name="sortBy">Name of the property (key), based on which the persons should be sorted</param>
+    /// <param name="sortOrder">Asc or Desc</param>
+    /// <returns>Returns the sorted persons as PersonResponse list</returns>
+    List<PersonResponse> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder);
+    
+    /// <summary>
+    /// Updates the specified person details based on the given person Id
+    /// </summary>
+    /// <param name="personUpdateRequest">Person details to update, including person Id</param>
+    /// <returns>Returns the person response object</returns>
+    PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest);
+    
+    /// <summary>
+    /// Deletes a person based on the given person id
+    /// </summary>
+    /// <param name="personId">PersonId to delete</param>
+    /// <returns>Returns true, if the deletion is sucessful; otherwise false</returns>
+    bool DeletePerson(Guid? personId);
 }
