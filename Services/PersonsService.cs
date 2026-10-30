@@ -12,10 +12,87 @@ public class PersonsService : IPersonsService
     private readonly List<Person> _persons;
     private readonly ICountriesService _countriesService;
 
-    public PersonsService()
+    public PersonsService(bool initialize = true)
     {
         _persons = new List<Person>();
         _countriesService = new CountriesService();
+
+        if (initialize)
+        {
+            _persons.Add(new Person() // https://mockaroo.com/ for generating mock data
+            {
+                PersonId = Guid.Parse("68BD2C28-F70A-4A5A-A3A0-923D507249FA"),
+                PersonName = "Fritz",
+                CountryId = Guid.Parse("6402C463-05FF-4E91-8C87-DE59CA688A3A"),
+                Email = "fchristy0@ustream.tv",
+                DateOfBirth = DateTime.Parse("1996-05-19"),
+                Gender = "Male",
+                Address = "2437 Mcguire Pass",
+                ReceiveNewsLetters = false
+            });
+
+            _persons.Add(new Person()
+            {
+                PersonId = Guid.Parse("C9CD8200-C7BF-4870-A119-6031C236F1E4"),
+                PersonName = "Elfrida",
+                CountryId = Guid.Parse("53CDF383-EEAE-42A4-8CF2-9B82C18A42E2"),
+                Email = "eyashin1@engadget.com",
+                DateOfBirth = DateTime.Parse("1990-07-18"),
+                Gender = "Female",
+                Address = "8127 Gina Way",
+                ReceiveNewsLetters = true
+            });
+                
+            _persons.Add(new Person()
+            {
+                PersonId  = Guid.Parse("5B45E303-71B0-45FE-AFF3-EB2B06D95891"),
+                PersonName = "Dar",
+                CountryId = Guid.Parse("2739A752-29E8-4A93-9A07-53211148F9AE"),
+                Email = "dfarrant2@360.cn",
+                DateOfBirth = DateTime.Parse("2001-01-01"),
+                Gender = "Male",
+                Address = "32 Sachs Alley",
+                ReceiveNewsLetters = false 
+            });
+                
+            _persons.Add(new Person()
+            {
+                PersonId  = Guid.Parse("68E82485-8AF0-4B6B-A6EA-57DA11392DD2"),
+                PersonName = "Cristi",
+                CountryId = Guid.Parse("28067E80-52A1-405A-8F2B-367C93BA4A63"),
+                Email = "carden3@opensource.org",
+                DateOfBirth = DateTime.Parse("1990-08-01"),
+                Gender = "Female",
+                Address = "505 Katie Circle",
+                ReceiveNewsLetters = false 
+            });
+                
+            _persons.Add(new Person()
+            {
+                PersonId  = Guid.Parse("C0ED53B1-C23A-44A6-8B69-775BB65ACF90"),
+                PersonName = "Hi",
+                CountryId = Guid.Parse("0429DF97-173A-43AC-BC17-02F058C776E0"),
+                Email = "hphinnessy8@imgur.com",
+                DateOfBirth = DateTime.Parse("1999-03-25"),
+                Gender = "Male",
+                Address = "8127 Gina Way",
+                ReceiveNewsLetters = true 
+            });
+                
+            _persons.Add(new Person()
+            {
+                PersonId  = Guid.Parse("BFA4530D-A63D-485D-A44A-5FED4E36ABFD"),
+                PersonName = "Harlene",
+                CountryId = Guid.Parse("6402C463-05FF-4E91-8C87-DE59CA688A3A"),
+                Email = "hleathem9@liveinternet.ru",
+                DateOfBirth = DateTime.Parse("1993-11-23"),
+                Gender = "Female",
+                Address = "12424 Waxwing Court",
+                ReceiveNewsLetters = true 
+            });
+            
+            //_countriesService.
+        }
     }
 
     private PersonResponse ConvertPersonToPersonResponse(Person person)
@@ -83,27 +160,27 @@ public class PersonsService : IPersonsService
 
         switch (searchBy)
         {
-            case nameof(Person.PersonName):
-                matchingPersons = allPersons.Where(temp => (string.IsNullOrEmpty(temp.PersonName)? temp.PersonName.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
+            case nameof(PersonResponse.PersonName):
+                matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.PersonName)? temp.PersonName.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
                 break;
             
-            case nameof(Person.Email):
-                matchingPersons = allPersons.Where(temp => (string.IsNullOrEmpty(temp.Email)? temp.Email.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
+            case nameof(PersonResponse.Email):
+                matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.Email)? temp.Email.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
                 break;
            
-            case nameof(Person.DateOfBirth):
+            case nameof(PersonResponse.DateOfBirth):
                 matchingPersons = allPersons.Where(temp => (temp.DateOfBirth != null)? temp.DateOfBirth.Value.ToString("yyyy MM dd").Contains(searchString, StringComparison.OrdinalIgnoreCase) : true).ToList();
                 break;
             
-            case nameof(Person.Gender):
-                matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.Gender)? temp.Gender.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
+            case nameof(PersonResponse.Gender):
+                matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.Gender)? temp.Gender.Equals(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
                 break;
             
-            case nameof(Person.CountryId):
+            case nameof(PersonResponse.CountryId):
                 matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.CountryName)? temp.CountryName.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
                 break;
             
-            case nameof(Person.Address):
+            case nameof(PersonResponse.Address):
                 matchingPersons = allPersons.Where(temp => (!string.IsNullOrEmpty(temp.Address)? temp.Address.Contains(searchString, StringComparison.OrdinalIgnoreCase) : true)).ToList();
                 break;
             
@@ -213,3 +290,4 @@ public class PersonsService : IPersonsService
         return true;
     }
 }
+
