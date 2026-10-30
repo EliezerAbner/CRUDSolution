@@ -206,3 +206,15 @@
 /home/eli/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb
 /home/eli/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/CRUDTests.genruntimeconfig.cache
 /home/eli/RiderProjects/CRUDSolution/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Caching.Memory.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Logging.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Options.dll
+/home/eli/RiderProjects/CRUDSolution/CRUDTests/bin/Debug/net10.0/Microsoft.Extensions.Primitives.dll

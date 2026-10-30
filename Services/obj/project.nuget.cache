@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "76xD4sbkgvk=",
+  "dgSpecHash": "ihs3H2EmaAI=",
   "success": true,
-  "projectFilePath": "/home/tuxlarper/RiderProjects/CRUDSolution/Services/Services.csproj",
+  "projectFilePath": "/home/eli/RiderProjects/CRUDSolution/Services/Services.csproj",
   "expectedPackageFiles": [
-    "/home/tuxlarper/.nuget/packages/microsoft.entityframeworkcore/10.0.14/microsoft.entityframeworkcore.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.14/microsoft.entityframeworkcore.abstractions.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.14/microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.14/microsoft.entityframeworkcore.relational.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.14/microsoft.extensions.caching.abstractions.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.caching.memory/10.0.14/microsoft.extensions.caching.memory.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.14/microsoft.extensions.configuration.abstractions.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.14/microsoft.extensions.dependencyinjection.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.14/microsoft.extensions.dependencyinjection.abstractions.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.logging/10.0.14/microsoft.extensions.logging.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.14/microsoft.extensions.logging.abstractions.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.options/10.0.14/microsoft.extensions.options.10.0.14.nupkg.sha512",
-    "/home/tuxlarper/.nuget/packages/microsoft.extensions.primitives/10.0.14/microsoft.extensions.primitives.10.0.14.nupkg.sha512"
+    "/home/eli/.nuget/packages/microsoft.entityframeworkcore/10.0.14/microsoft.entityframeworkcore.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.14/microsoft.entityframeworkcore.abstractions.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.14/microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.14/microsoft.entityframeworkcore.relational.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.caching.abstractions/10.0.14/microsoft.extensions.caching.abstractions.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.caching.memory/10.0.14/microsoft.extensions.caching.memory.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.14/microsoft.extensions.configuration.abstractions.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.dependencyinjection/10.0.14/microsoft.extensions.dependencyinjection.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.14/microsoft.extensions.dependencyinjection.abstractions.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.logging/10.0.14/microsoft.extensions.logging.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.14/microsoft.extensions.logging.abstractions.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.options/10.0.14/microsoft.extensions.options.10.0.14.nupkg.sha512",
+    "/home/eli/.nuget/packages/microsoft.extensions.primitives/10.0.14/microsoft.extensions.primitives.10.0.14.nupkg.sha512"
   ],
   "logs": []
 }
