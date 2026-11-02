@@ -14,37 +14,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a49d214-feb7-4de7-87d2-536813f2314d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CRUDExample/countries.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CRUDExample/persons.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/CRUDExample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/CRUDExample.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
@@ -57,17 +46,18 @@
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_CRUDTests" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_CRUDTests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CoverletSourceRootsMapping_CRUDTests" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CoverletSourceRootsMapping_CRUDTests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
@@ -85,7 +75,6 @@
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" afterDir="false" />
@@ -95,7 +84,9 @@
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Country.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Country.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/PersonsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/PersonsDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.dll" afterDir="false" />
@@ -106,7 +97,6 @@
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.sourcelink.json" afterDir="false" />
@@ -143,6 +133,8 @@
       <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/CountriesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/CountriesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/PersonsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/PersonsService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
@@ -177,11 +169,6 @@
   <component name="ContinuousTesting.UiSettings">
     <option name="tabHidden" value="true" />
   </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="2f73dd9b-5d42-413d-9578-5a56f964725e" value="" />
-    </colors>
-  </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
@@ -210,10 +197,11 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:EliezerAbner/CRUDSolution.git&quot;,
-    &quot;accountId&quot;: &quot;8ef6b398-03f5-4a50-965d-9148a5eaf386&quot;
+    &quot;accountId&quot;: &quot;f3f5f925-0025-4f67-beda-209ae212dbc6&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1803ccf67607412e9d513650b2802244131a88/46/124ed790/MySqlParameter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9d2f95d72fa884d8b6ddefc717c56da3657fbb2d5fb683656c3589eb6587/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDExample/Views/Person/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
@@ -221,6 +209,9 @@
     <setting file="file://$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/MyMath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102034744_Initial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102044107_GetPersonsStoredProcedure.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102044218_GetPersons_StoredProcedure.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/PersonsDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ServiceContracts/DTO/CountryAddRequest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -232,6 +223,7 @@
     <setting file="file://$PROJECT_DIR$/ServiceContracts/Enums/SortOrderOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Helpers/ValidationHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/PersonsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -249,12 +241,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;.NET Launch Settings Profile.CRUDExample: http.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.31873906&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -284,6 +278,7 @@
       <option name="LAUNCH_PROFILE_NAME" value="http" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -350,21 +345,13 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Services/PersonsService.cs</url>
-          <line>152</line>
-          <properties documentPath="$PROJECT_DIR$/Services/PersonsService.cs" containingFunctionPresentation="Method 'GetFilteredPersons'">
-            <startOffsets>
-              <option value="5363" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5364" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="LaunchSettings">
+        <watch expression="sql" custom="1" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

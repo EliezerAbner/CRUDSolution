@@ -20,17 +20,57 @@ public class PersonsDbContext : DbContext
         
         //Seed to Countries
         string countriesJson = File.ReadAllText("countries.json");
-        List<Country> countries = System.Text.Json.JsonSerializer.Deserialize<List<Country>>(countriesJson);
+        List<Country>? countries = System.Text.Json.JsonSerializer.Deserialize<List<Country>>(countriesJson);
         
         foreach (Country country in countries)
             modelBuilder.Entity<Country>().HasData(country);
         
         //Seed to Persons
         string personsJson = File.ReadAllText("persons.json");
-        List<Person> persons = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(personsJson);
+        List<Person>? persons = System.Text.Json.JsonSerializer.Deserialize<List<Person>>(personsJson);
         
         foreach (Person person in persons)
-            modelBuilder.Entity<Country>().HasData(person);
+            modelBuilder.Entity<Person>().HasData(person);
+        
+        //Fluent API
+        modelBuilder.Entity<Person>().Property(temp => temp.Tin)
+            .HasColumnName("TaxIdentificationNumber")
+            .HasColumnType("VARCHAR(20)")
+            .HasDefaultValue("ABC12345");
+        
+        // modelBuilder.Entity<Person>()
+        //     .HasIndex(temp => temp.Tin)
+        //     .IsUnique(); 
+    }
+
+    public List<Person> sp_GetAllPersons()
+    {
+        return Persons.FromSqlRaw("CALL GetAllPersons()").ToList();
+    }
+
+    public int sp_InsertPerson(Person person)
+    {
+        /*
+             SqlParameter[] parameters = new SqlParameter[] 
+            { 
+               new SqlParameter("@PersonID", person.PersonID),
+               new SqlParameter("@PersonName", person.PersonName),
+               new SqlParameter("@Email", person.Email),
+               new SqlParameter("@DateOfBirth", person.DateOfBirth),
+               new SqlParameter("@Gender", person.Gender),
+               new SqlParameter("@CountryID", person.CountryID),
+               new SqlParameter("@Address", person.Address),
+               new SqlParameter("@ReceiveNewsLetters", person.ReceiveNewsLetters)
+            };
+
+            return Database.ExecuteSqlRaw("EXECUTE [dbo].[InsertPerson] @PersonID, @PersonName, @Email, @DateOfBirth, @Gender, @CountryID, @Address, @ReceiveNewsLetters", parameters);
+           
+           --> This was the code used on the course, but probably due to incompatibility with MySql.EntityFrameworkCore, it was not working
+         */
+        int receiveNewsLetters = person.ReceiveNewsLetters ? 1 : 0;
+        string sql = $"CALL InsertPerson('{person.PersonId}', '{person.PersonName}', '{person.Email}', '{person.DateOfBirth?.ToString("yyyy-MM-dd")}', '{person.Gender}', '{person.CountryId}', '{person.Address}', '{receiveNewsLetters}')";
+        
+        return Database.ExecuteSqlRaw(sql);
     }
 }
 
@@ -42,7 +82,7 @@ public class PersonsDbContext : DbContext
  *
  * --> Pros
  * * Shorter Code;
- * * Strongly-Typed (The collumns as created as propertirs in model class; so the Intellisense offers collumn of the table as propertirs, while writing the code)
+ * * Strongly-Typed (The collumns as created as propertirs in model class; so the IntelliSense offers column of the table as propertirs, while writing the code)
  *
  * --> Cons
  * * Performance (EFCore performs slower than ADO.NET, so ADO>NET or its alternatives are recommended for larger & high-traffic applications).
@@ -68,4 +108,6 @@ public class PersonsDbContext : DbContext
     * Used when creating new databases
     * Manual changes to DB will be most probably lost because your code defines the database
     * Stored procedures, indexes, triggers etc., can be created with T-SQL independently
+    
+    For reverting a Migration: Just type Update-Database [name of last migration] (it will revert tll this point)
 */

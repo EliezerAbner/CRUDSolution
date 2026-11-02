@@ -820,7 +820,8 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.14",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.14"
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.14",
+          "MySql.EntityFrameworkCore": "10.0.12"
         },
         "compile": {
           "bin/placeholder/Entities.dll": {}
@@ -2642,19 +2643,19 @@
     ]
   },
   "packageFolders": {
-    "/home/tuxlarper/.nuget/packages/": {}
+    "/home/eli/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDExample/CRUDExample.csproj",
+      "projectUniqueName": "/home/eli/RiderProjects/CRUDSolution/CRUDExample/CRUDExample.csproj",
       "projectName": "CRUDExample",
-      "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDExample/CRUDExample.csproj",
-      "packagesPath": "/home/tuxlarper/.nuget/packages/",
-      "outputPath": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDExample/obj/",
+      "projectPath": "/home/eli/RiderProjects/CRUDSolution/CRUDExample/CRUDExample.csproj",
+      "packagesPath": "/home/eli/.nuget/packages/",
+      "outputPath": "/home/eli/RiderProjects/CRUDSolution/CRUDExample/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/tuxlarper/.nuget/NuGet/NuGet.Config"
+        "/home/eli/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2667,11 +2668,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj": {
-              "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj"
+            "/home/eli/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj": {
+              "projectPath": "/home/eli/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj"
             },
-            "/home/tuxlarper/RiderProjects/CRUDSolution/Services/Services.csproj": {
-              "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/Services/Services.csproj"
+            "/home/eli/RiderProjects/CRUDSolution/Services/Services.csproj": {
+              "projectPath": "/home/eli/RiderProjects/CRUDSolution/Services/Services.csproj"
             }
           }
         }
@@ -2723,7 +2724,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/tuxlarper/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/eli/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

@@ -9,6 +9,7 @@ public class Country
 {
     [Key]
     public Guid CountryId { get; set; }
+    [StringLength(80)]
     public string? CountryName { get; set; }
     
 }

@@ -4,6 +4,7 @@ using Services;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
+using Microsoft.EntityFrameworkCore;
 using Xunit.Abstractions;
 
 
@@ -17,8 +18,10 @@ public class PersonsServiceTest
 
     public PersonsServiceTest(ITestOutputHelper testOutputHelper)
     {
-        _personsService = new PersonsService();
-        _countriesService = new CountriesService(false);
+        _countriesService =
+            new CountriesService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options));
+        
+        _personsService = new PersonsService(new PersonsDbContext(new DbContextOptionsBuilder<PersonsDbContext>().Options), _countriesService);
         _testOutputHelper = testOutputHelper;
     }
     

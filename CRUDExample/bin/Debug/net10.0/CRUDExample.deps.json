@@ -614,7 +614,8 @@
       "Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.14",
-          "Microsoft.EntityFrameworkCore.Relational": "10.0.14"
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.14",
+          "MySql.EntityFrameworkCore": "10.0.12"
         },
         "runtime": {
           "Entities.dll": {

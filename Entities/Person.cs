@@ -24,5 +24,7 @@ public class Person
     [StringLength(200)]
     public string? Address { get; set; }
     public bool ReceiveNewsLetters { get; set; }
+    [StringLength(80)]
+    public string? Tin { get; set; } //TIN means Tax Identification Number (basically the CPF, in Brazil or SSN in US)
     
 }
