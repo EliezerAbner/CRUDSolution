@@ -50,7 +50,7 @@ public class PersonsDbContext : DbContext
 /*
 
 /*
-  EFCore Approches
+  EFCore Approaches
 
   --> DBFirst Approach
     * Design-Time: DB --Generate--> Entity Model Classes

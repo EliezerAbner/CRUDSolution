@@ -1588,19 +1588,19 @@
     ]
   },
   "packageFolders": {
-    "/home/eli/.nuget/packages/": {}
+    "/home/tuxlarper/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/eli/RiderProjects/CRUDSolution/CRUDTests/CRUDTests.csproj",
+      "projectUniqueName": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/CRUDTests.csproj",
       "projectName": "CRUDTests",
-      "projectPath": "/home/eli/RiderProjects/CRUDSolution/CRUDTests/CRUDTests.csproj",
-      "packagesPath": "/home/eli/.nuget/packages/",
-      "outputPath": "/home/eli/RiderProjects/CRUDSolution/CRUDTests/obj/",
+      "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/CRUDTests.csproj",
+      "packagesPath": "/home/tuxlarper/.nuget/packages/",
+      "outputPath": "/home/tuxlarper/RiderProjects/CRUDSolution/CRUDTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/eli/.nuget/NuGet/NuGet.Config"
+        "/home/tuxlarper/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1613,14 +1613,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/eli/RiderProjects/CRUDSolution/Entities/Entities.csproj": {
-              "projectPath": "/home/eli/RiderProjects/CRUDSolution/Entities/Entities.csproj"
+            "/home/tuxlarper/RiderProjects/CRUDSolution/Entities/Entities.csproj": {
+              "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/Entities/Entities.csproj"
             },
-            "/home/eli/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj": {
-              "projectPath": "/home/eli/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj"
+            "/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj": {
+              "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/ServiceContracts/ServiceContracts.csproj"
             },
-            "/home/eli/RiderProjects/CRUDSolution/Services/Services.csproj": {
-              "projectPath": "/home/eli/RiderProjects/CRUDSolution/Services/Services.csproj"
+            "/home/tuxlarper/RiderProjects/CRUDSolution/Services/Services.csproj": {
+              "projectPath": "/home/tuxlarper/RiderProjects/CRUDSolution/Services/Services.csproj"
             }
           }
         }
@@ -1675,7 +1675,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/eli/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/home/tuxlarper/.dotnet/sdk/10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
