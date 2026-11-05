@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Entities;
 
@@ -26,5 +27,8 @@ public class Person
     public bool ReceiveNewsLetters { get; set; }
     [StringLength(80)]
     public string? Tin { get; set; } //TIN means Tax Identification Number (basically the CPF, in Brazil or SSN in US)
+    
+    [ForeignKey("CountryId")]
+    public Country? Country { get; set; }
     
 }

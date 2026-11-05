@@ -17,6 +17,11 @@
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
       <PackageReference Include="MySql.EntityFrameworkCore" Version="10.0.12" />
+      <PackageReference Include="Rotativa.AspNetCore" Version="1.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\Rotativa\" />
     </ItemGroup>
 
 </Project>

@@ -14,152 +14,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a49d214-feb7-4de7-87d2-536813f2314d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CRUDExample/Views/Person/PersonsPDF.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CRUDSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/CRUDExample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/CRUDExample.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDExample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/CRUDExample.staticwebassets.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/bin/Debug/net10.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/CRUDExample.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/CRUDExample.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rbcswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rbcswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/ref/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/ref/CRUDExample.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/refint/CRUDExample.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/refint/CRUDExample.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjimswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjimswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/Debug/net10.0/staticwebassets.build.json.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDExample/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDSolution.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/Views/Person/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/Views/Person/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUDExample/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDExample/Views/_ViewImports.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_CRUDTests" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/.msCoverageSourceRootsMapping_CRUDTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CoverletSourceRootsMapping_CRUDTests" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/CoverletSourceRootsMapping_CRUDTests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/bin/Debug/net10.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/CRUDTests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/CRUDTests.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/ref/CRUDTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/refint/CRUDTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/Debug/net10.0/refint/CRUDTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CRUDTests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/Country.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Country.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/PersonsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/PersonsDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/Entities.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/ref/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/ref/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/refint/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/net10.0/refint/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Entities.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/bin/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ServiceContracts.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ref/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/ref/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/refint/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/Debug/net10.0/refint/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/ServiceContracts.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/ServiceContracts.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/ServiceContracts.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/ServiceContracts.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/DTO/PersonResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/DTO/PersonResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/ICountriesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/ICountriesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/IPersonsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/IPersonsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServiceContracts/ServiceContracts.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ServiceContracts/ServiceContracts.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/CountriesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/CountriesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/PersonsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/PersonsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/ServiceContracts.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/bin/Debug/net10.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/Services.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/ref/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/ref/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Debug/net10.0/refint/Services.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Debug/net10.0/refint/Services.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/Services.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Services/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Services/Services.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,21 +72,23 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:EliezerAbner/CRUDSolution.git&quot;,
-    &quot;accountId&quot;: &quot;f3f5f925-0025-4f67-beda-209ae212dbc6&quot;
+    &quot;url&quot;: &quot;https://github.com/EliezerAbner/CRUDSolution.git&quot;,
+    &quot;accountId&quot;: &quot;8ef6b398-03f5-4a50-965d-9148a5eaf386&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1803ccf67607412e9d513650b2802244131a88/46/124ed790/MySqlParameter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/75a1afd9119ab2bd33e6d5ca553ce77f7ab3070ca1d638a4d5edc4bac934/CsvWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aafb34630aaae1b1f966397a6316e16ab9ee208a164fa43747fb36cdf289b/CsvWriterOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9d2f95d72fa884d8b6ddefc717c56da3657fbb2d5fb683656c3589eb6587/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/.nuget/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDExample/Views/Person/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CRUDExample/Views/Person/PersonsPDF.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDExample/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/CountriesServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/MyMath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CRUDTests/PersonsServiceTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102034744_Initial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102044107_GetPersonsStoredProcedure.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Migrations/20261102044218_GetPersons_StoredProcedure.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Person.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/PersonsDbContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -223,9 +101,70 @@
     <setting file="file://$PROJECT_DIR$/ServiceContracts/Enums/SortOrderOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/Helpers/ValidationHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Services/PersonsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Immediate Window" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0001765667327398" />
+      <entry key="S2" value="1.142416028384305" />
+      <entry key="S5" value="1.6578778066894402" />
+      <entry key="S10" value="2.135477926382106" />
+      <entry key="S30" value="2.652273883737301" />
+      <entry key="S60" value="2.8192932683472693" />
+      <entry key="M2" value="2.9553522798625345" />
+      <entry key="M5" value="3.3879675991818052" />
+      <entry key="M10" value="4.186113911788248" />
+      <entry key="M15" value="5.075364455330149" />
+      <entry key="M30" value="8.783776331901333" />
+      <entry key="H1" value="17.254107769790046" />
+      <entry key="H2" value="27.909833636306047" />
+      <entry key="H4" value="36.650276170874314" />
+      <entry key="D1" value="46.63220227967568" />
+      <entry key="W1" value="48.65325094056391" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="6.787630732898979E-43" />
+      <entry key="MS500" value="3.6886516996738123E-9" />
+      <entry key="S2" value="0.009243113569276573" />
+      <entry key="S5" value="0.2166795319697296" />
+      <entry key="S10" value="0.64936902194467" />
+      <entry key="S30" value="1.3704698812922362" />
+      <entry key="S60" value="1.6756508506678642" />
+      <entry key="M2" value="2.1179938624090258" />
+      <entry key="M5" value="4.110944260370614" />
+      <entry key="M10" value="8.013120568106922" />
+      <entry key="M15" value="11.417199859514135" />
+      <entry key="M30" value="18.568490894617657" />
+      <entry key="H1" value="26.1508539957552" />
+      <entry key="H2" value="32.45359897471053" />
+      <entry key="H4" value="36.70326367360094" />
+      <entry key="D1" value="41.031184258040106" />
+      <entry key="W1" value="41.85928898256595" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.4467119210769987E-17" />
+      <entry key="MS500" value="4.429027126662281E-4" />
+      <entry key="S2" value="0.22680732270004147" />
+      <entry key="S5" value="1.1667167825473332" />
+      <entry key="S10" value="2.2954159378141203" />
+      <entry key="S30" value="3.809386399019877" />
+      <entry key="S60" value="4.37965373861853" />
+      <entry key="M2" value="5.009640282937825" />
+      <entry key="M5" value="7.44691875683214" />
+      <entry key="M10" value="12.140723061265113" />
+      <entry key="M15" value="16.435091623668868" />
+      <entry key="M30" value="27.30566444133537" />
+      <entry key="H1" value="43.373080412544425" />
+      <entry key="H2" value="60.34412343258928" />
+      <entry key="H4" value="73.34277921742841" />
+      <entry key="D1" value="87.66140809943836" />
+      <entry key="W1" value="90.51225226774024" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6,
   &quot;fromUser&quot;: false
@@ -345,6 +284,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs</url>
+          <line>145</line>
+          <properties documentPath="$PROJECT_DIR$/CRUDExample/Controllers/PersonController.cs" containingFunctionPresentation="Method 'PersonsPdf'">
+            <startOffsets>
+              <option value="5075" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5076" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>

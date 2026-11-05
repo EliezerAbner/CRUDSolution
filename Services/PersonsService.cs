@@ -1,7 +1,10 @@
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using CsvHelper;
 using ServiceContracts.DTO;
 using ServiceContracts;
 using Entities;
+using Microsoft.EntityFrameworkCore;
 using ServiceContracts.Enums;
 using Services.Helpers;
 
@@ -17,16 +20,8 @@ public class PersonsService : IPersonsService
         _db = personsDbContext;
         _countriesService = countriesService;
     }
-
-    private PersonResponse ConvertPersonToPersonResponse(Person person)
-    {
-        PersonResponse personResponse = person.ToPersonResponse();
-        personResponse.CountryName = _countriesService.GetCountryByCountryId(person.CountryId)?.CountryName;
-        
-        return personResponse;
-    }
     
-    public PersonResponse AddPerson(PersonAddRequest? personAddRequest)
+    public async Task<PersonResponse> AddPerson(PersonAddRequest? personAddRequest)
     {
         //check if PersonAddRequest is not null
         if (personAddRequest == null)
@@ -45,40 +40,38 @@ public class PersonsService : IPersonsService
         
         //add person object database
         _db.sp_InsertPerson(person);
+        await _db.SaveChangesAsync();
         
         //convert the Person object into PersonResponse type
-        return ConvertPersonToPersonResponse(person);
+        return person.ToPersonResponse();
     }
 
-    public List<PersonResponse> GetAllPersons()
+    public async Task<List<PersonResponse>> GetAllPersons()
     {
-        /*
-            return _db.Persons.ToList()
-                .Select(temp => ConvertPersonToPersonResponse(temp)).ToList();
-        */
+        var persons = await _db.Persons.Include("Country").ToListAsync();
         
-        //using a stored procedure
-        return _db.sp_GetAllPersons()
-            .Select(temp => ConvertPersonToPersonResponse(temp)).ToList();
+        return persons
+            .Select(temp => temp.ToPersonResponse())
+            .ToList();
     }
 
-    public PersonResponse? GetPersonByPersonId(Guid? personId)
+    public async Task<PersonResponse?> GetPersonByPersonId(Guid? personId)
     {  
         if (personId == null)
             return null;
 
-        Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonId == personId);
+        Person? person = await _db.Persons.FirstOrDefaultAsync(temp => temp.PersonId == personId);
         
         if (person == null)
             return null;
         
-        return ConvertPersonToPersonResponse(person);
+        return person.ToPersonResponse();
     }
 
-    public List<PersonResponse> GetFilteredPersons(string searchBy, string? searchString)
+    public async Task<List<PersonResponse>> GetFilteredPersons(string searchBy, string? searchString)
     {
         
-        List<PersonResponse> allPersons = GetAllPersons();
+        List<PersonResponse> allPersons = await GetAllPersons();
         List<PersonResponse> matchingPersons = allPersons;
 
         if (string.IsNullOrEmpty(searchBy) || string.IsNullOrEmpty(searchString))
@@ -123,7 +116,7 @@ public class PersonsService : IPersonsService
         return matchingPersons;
     }
 
-    public List<PersonResponse> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder)
+    public async Task<List<PersonResponse>> GetSortedPersons(List<PersonResponse> allPersons, string sortBy, SortOrderOptions sortOrder)
     {
         if (string.IsNullOrEmpty(sortBy))
             return allPersons;
@@ -186,14 +179,14 @@ public class PersonsService : IPersonsService
         return sortedPersons;
     }
 
-    public PersonResponse UpdatePerson(PersonUpdateRequest? personUpdateRequest)
+    public async Task<PersonResponse> UpdatePerson(PersonUpdateRequest? personUpdateRequest)
     {
         if (personUpdateRequest == null)
             throw new ArgumentNullException(nameof(Person));
         
         ValidationHelper.ModelValidation(personUpdateRequest);
 
-        Person? matchingPerson = _db.Persons.FirstOrDefault(temp => temp.PersonId == personUpdateRequest.PersonId);
+        Person? matchingPerson = await _db.Persons.FirstOrDefaultAsync(temp => temp.PersonId == personUpdateRequest.PersonId);
         
         if (matchingPerson == null)
             throw new ArgumentException("Given person id doesn't exist");
@@ -205,24 +198,41 @@ public class PersonsService : IPersonsService
         matchingPerson.CountryId = personUpdateRequest.CountryId;
         matchingPerson.ReceiveNewsLetters = personUpdateRequest.ReceiveNewsLetters;
         
-        _db.SaveChanges();
+        await _db.SaveChangesAsync();
         return matchingPerson.ToPersonResponse();
     }
 
-    public bool DeletePerson(Guid? personId)
+    public async Task<bool> DeletePerson(Guid? personId)
     {
         if (personId == null)
             throw new ArgumentNullException(nameof(personId));
 
-        Person? person = _db.Persons.FirstOrDefault(temp => temp.PersonId == personId);
+        Person? person = await _db.Persons.FirstOrDefaultAsync(temp => temp.PersonId == personId);
 
         if (person == null)
             return false;
         
         _db.Persons
             .Remove(_db.Persons.First (temp => temp.PersonId == personId));
-        _db.SaveChanges();
+        await _db.SaveChangesAsync();
         return true;
+    }
+
+    public async Task<MemoryStream> GetPersonCSV()
+    {
+        MemoryStream memoryStream = new MemoryStream();
+        List<PersonResponse> persons = _db.Persons
+            .Include("Country")
+            .Select(temp => temp.ToPersonResponse()).ToList();
+        
+        await using (var writer = CsvWriter.Create(memoryStream, leaveOpen: true))
+        {
+            writer.WriteHeader<PersonResponse>();
+            await writer.WriteRecordsAsync(persons);
+        }
+
+        memoryStream.Position = 0;
+        return memoryStream;
     }
 }
 

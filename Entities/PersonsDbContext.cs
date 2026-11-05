@@ -41,6 +41,14 @@ public class PersonsDbContext : DbContext
         // modelBuilder.Entity<Person>()
         //     .HasIndex(temp => temp.Tin)
         //     .IsUnique(); 
+        
+        //Table Relations
+        modelBuilder.Entity<Person>(entity =>
+        {
+            entity.HasOne<Country>(c => c.Country)
+                .WithMany(p => p.Persons)
+                .HasForeignKey(p => p.CountryId);
+        });
     }
 
     public List<Person> sp_GetAllPersons()

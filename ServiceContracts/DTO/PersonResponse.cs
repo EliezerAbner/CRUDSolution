@@ -1,3 +1,4 @@
+using CsvHelper;
 using Entities;
 using ServiceContracts.Enums;
 
@@ -6,7 +7,8 @@ namespace ServiceContracts.DTO;
 /// <summary>
 /// Represents the DTO class that is used as return most methods of Persons Service
 /// </summary>
-public class PersonResponse
+[CsvRecord]
+public partial class PersonResponse
 {
     public Guid PersonId { get; set; }
     public string? PersonName { get; set; }

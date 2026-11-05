@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Rotativa.AspNetCore;
 using ServiceContracts;
 using ServiceContracts.DTO;
 using ServiceContracts.Enums;
@@ -19,7 +21,7 @@ public class PersonController : Controller
     
     [Route("index")]
     [Route("/")]
-    public IActionResult Index(string searchBy, string? searchText, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.Asc)
+    public async Task<IActionResult> Index(string searchBy, string? searchText, string sortBy = nameof(PersonResponse.PersonName), SortOrderOptions sortOrder = SortOrderOptions.Asc)
     {
         ViewBag.SearchFields = new Dictionary<string, string>()
         {
@@ -31,9 +33,9 @@ public class PersonController : Controller
             { nameof(PersonResponse.Address), "Address" },
         };
         
-        List<PersonResponse> persons = _personsService.GetFilteredPersons(searchBy, searchText);
+        List<PersonResponse> persons = await _personsService.GetFilteredPersons(searchBy, searchText);
 
-        List<PersonResponse> sortedPersons = _personsService.GetSortedPersons(persons, sortBy, sortOrder);
+        List<PersonResponse> sortedPersons = await _personsService.GetSortedPersons(persons, sortBy, sortOrder);
         ViewBag.CurrentSortBy = sortBy;
         ViewBag.CurrentSortOrder = sortOrder;
         return View(persons);
@@ -42,9 +44,9 @@ public class PersonController : Controller
     //Executes when the user clicks on "Create Person" hyperlink
     [Route("create")]
     [HttpGet]
-    public IActionResult Create()
+    public async Task<IActionResult> Create()
     {
-        List<CountryResponse> countries =  _countriesService.GetAllCountries();
+        List<CountryResponse> countries =  await _countriesService.GetAllCountries();
         ViewBag.Countries = countries;
         
         return View();
@@ -52,11 +54,11 @@ public class PersonController : Controller
 
     [Route("create")]
     [HttpPost]
-    public IActionResult Create(PersonAddRequest personAddRequest)
+    public async Task<IActionResult> Create(PersonAddRequest personAddRequest)
     {
         if (!ModelState.IsValid)
         {   
-            List<CountryResponse> countries =  _countriesService.GetAllCountries();
+            List<CountryResponse> countries =  await _countriesService.GetAllCountries();
             ViewBag.Countries = countries;
 
             ViewBag.Errors = ModelState.Values.SelectMany(x => x.Errors).SelectMany(e => e.ErrorMessage).ToList();
@@ -64,7 +66,102 @@ public class PersonController : Controller
             return View();
         }
         
-        PersonResponse personResponse = _personsService.AddPerson(personAddRequest);
+        PersonResponse personResponse = await _personsService.AddPerson(personAddRequest);
         return RedirectToAction("Index", "Person");
+    }
+    
+    [HttpGet]
+    [Route("[action]/{personID}")] //Eg: /persons/edit/1
+    public async Task<IActionResult> Edit(Guid personId)
+    {
+      PersonResponse? personResponse = await _personsService.GetPersonByPersonId(personId);
+      if (personResponse == null)
+      {
+        return RedirectToAction("Index");
+      }
+
+      PersonUpdateRequest personUpdateRequest = personResponse.ToPersonUpdateRequest();
+
+      List<CountryResponse> countries = await _countriesService.GetAllCountries();
+      ViewBag.Countries = countries.Select(temp =>
+      new SelectListItem() { Text = temp.CountryName, Value = temp.CountryId.ToString() });
+
+      return View(personUpdateRequest);
+    }
+
+
+    [HttpPost]
+    [Route("[action]/{personID}")]
+    public async Task<IActionResult> Edit(PersonUpdateRequest personUpdateRequest)
+    {
+      PersonResponse? personResponse = await _personsService.GetPersonByPersonId(personUpdateRequest.PersonId);
+
+      if (personResponse == null)
+      {
+        return RedirectToAction("Index");
+      }
+
+      if (ModelState.IsValid)
+      {
+        PersonResponse updatedPerson = await _personsService.UpdatePerson(personUpdateRequest);
+        return RedirectToAction("Index");
+      }
+      else
+      {
+        List<CountryResponse> countries = await _countriesService.GetAllCountries();
+        ViewBag.Countries = countries.Select(temp =>
+        new SelectListItem() { Text = temp.CountryName, Value = temp.CountryId.ToString() });
+
+        ViewBag.Errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+        return View(personResponse.ToPersonUpdateRequest());
+      }
+    }
+
+
+    [HttpGet]
+    [Route("[action]/{personID}")]
+    public async Task<IActionResult> Delete(Guid? personId)
+    {
+      PersonResponse? personResponse = await _personsService.GetPersonByPersonId(personId);
+      if (personResponse == null)
+        return RedirectToAction("Index");
+
+      return View(personResponse);
+    }
+
+    [HttpPost]
+    [Route("[action]/{personID}")]
+    public async Task<IActionResult> Delete(PersonUpdateRequest personUpdateResult)
+    {
+      PersonResponse? personResponse = await _personsService.GetPersonByPersonId(personUpdateResult.PersonId);
+      if (personResponse == null)
+        return RedirectToAction("Index");
+
+      await _personsService.DeletePerson(personUpdateResult.PersonId);
+      return RedirectToAction("Index");
+    }
+
+    [Route("PersonsPDF")]
+    public async Task<IActionResult> PersonsPdf()
+    {
+        //Get list of persons
+        List<PersonResponse> persons =  await _personsService.GetAllPersons();
+        
+        //Return view as PDF
+        return new ViewAsPdf("PersonsPDF", persons, ViewData)
+        {
+            PageMargins = new Rotativa.AspNetCore.Options.Margins()
+            {
+                Top=20, Right=20, Bottom=20, Left=20
+            },
+            PageOrientation = Rotativa.AspNetCore.Options.Orientation.Landscape
+        };
+    }
+
+    [Route("PersonsCSV")]
+    public async Task<IActionResult> PersonsCsv()
+    {
+        MemoryStream memoryStream = await _personsService.GetPersonCSV();
+        return File(memoryStream, "app/octet-stream", "persons.csv");
     }
 }
